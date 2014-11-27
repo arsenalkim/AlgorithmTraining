@@ -18,12 +18,12 @@ void picnic(int nTestCase)
 
 	for (int n = 0; n < nTestCase; n++)
 	{
-		scanf("%d %d", &nStudents, &nCouples);
+		scanf("%d %d", &nStudents, &nCouples);			// Keyboard Input-2
 
 		for (int i = 0; i < nCouples; i++)
 		{
 			int val_1, val_2;
-			scanf("%d %d", &val_1, &val_2);
+			scanf("%d %d", &val_1, &val_2);				// Keyboard Input-3
 
 			// 가장 빠른 번호부터 순서 대로 삽입
 			if (val_1 < val_2)

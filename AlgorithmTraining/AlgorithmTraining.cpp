@@ -2,16 +2,18 @@
 //
 
 #include "stdafx.h"
-#include "picnic.h"
+//#include "picnic.h"
+#include "quadtree.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	// Input
+	// Keyboard Input-1
 	int nTestCase;
 	scanf("%d", &nTestCase);
 
 	// Algorithm	
-	picnic(nTestCase);
+	//picnic(nTestCase);
+	quadtree();
 
 	
 
