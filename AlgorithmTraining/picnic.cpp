@@ -39,9 +39,7 @@ void picnic(int nTestCase)
 	printf("\n <output> \n");
 
 	for (int i = 0; i < nTestCase; i++)
-	{
 		printf("%d\n", nValue[i]);
-	}
 
 	scanf("%d", &nValue[9]);
 
